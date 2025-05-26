@@ -43,7 +43,7 @@ grupo_pronome = random.choice(list(pronomes.keys()))
 pronome = random.choice(pronomes[grupo_pronome])
 verbo = random.choice(verbos_servio)
 
-ultima_letra = verbo[-1]
+ultima_letra = verbo[-3]
 
 #resposta corretas
 if grupo_pronome == "1s":
@@ -64,7 +64,7 @@ elif grupo_pronome == "3p":
     elif ultima_letra == "e":
         resposta = verbo[:-3] + "u"
     else:
-        resposta = verbo  # ou outra lógica de fallback
+        resposta = "erro"  # ou outra lógica de fallback
 else:
     resposta = "A resposta está errada"
 
@@ -73,10 +73,10 @@ print(f"Grupo: {grupo_pronome} | Pronome: {pronome} | Verbo: {verbo}")
 print(pronome, verbo)
 resposta_usuario = input("digite sua resposta:")
 
-if resposta_usuario.strip() ==f"{resposta}":
+if resposta_usuario.strip() == f"{pronome} {resposta}" or resposta_usuario.strip() == f"{resposta}":
         print("✅ Correto!")
 else:
         print(f"❌ Errado. A resposta certa é: {pronome} {resposta}")
 
-print(f"A resposta correta é: {pronome} {resposta}")
+print(f"A resposta correta é: {resposta}")
 print(f"Aliás, {verbo} significa: {dict[verbo]}")
