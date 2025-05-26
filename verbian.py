@@ -43,7 +43,7 @@ pronoun_group = random.choice(list(pronouns.keys()))
 pronoun = random.choice(pronouns[pronoun_group])
 verb = random.choice(serbian_verbs)
 
-last_letter = verb[-1]
+last_letter = verb[-3]
 
 # correct answer
 if pronoun_group == "1s":
@@ -64,7 +64,7 @@ elif pronoun_group == "3p":
     elif last_letter == "e":
         answer = verb[:-3] + "u"
     else:
-        answer = verb  # or some fallback logic
+        answer = "erro"  # or some fallback logic
 else:
     answer = "The answer is incorrect"
 
