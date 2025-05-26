@@ -72,7 +72,7 @@ print(f"Group: {pronoun_group} | Pronoun: {pronoun} | Verb: {verb}")
 print(pronoun, verb)
 user_input = input("Type your answer: ")
 
-if user_input.strip() == f"{answer}":
+if user_input.strip() == f"{pronoun} {answer}" or user_input.strip() == f"{answer}":
     print("✅ Correct!")
 else:
     print(f"❌ Incorrect. The right answer is: {pronoun} {answer}")
