@@ -1,7 +1,7 @@
 # Verbian
 
 A simple Python program to practice Serbian verb conjugation with personal pronouns in present tense.
-
+<img width="282" height="105" alt="Image" src="https://github.com/user-attachments/assets/bf54d8e8-c67d-4d21-b5cc-b345ce864c36" />
 ## 💡 About
 
 This program randomly selects a Serbian verb and a pronoun (e.g., "ja", "ti", "on", "mi", etc.), and asks the user to conjugate the verb accordingly.
