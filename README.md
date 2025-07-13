@@ -25,15 +25,15 @@ By the way, učiti means: to study
 
 ## Hints
 
-Ja = verb - infinitive(ti) + "m"
-Ti = verb - infinitive(ti) + "š"
-On, Ona, Oni = verb - infinitive(ti)
-Mi = verb - infinitive(ti) + "mo"
-Vi = verb - infinitive(ti) + "te"
-Oni, One, Ona = verb - infinitive(ti)
-  if last letter is "a" = "aju" 
-  elif last letter is "i" = "e" 
-  elif last letter is "e" = "u"
+- Ja = verb - infinitive(ti) + "m"
+- Ti = verb - infinitive(ti) + "š"
+- On, Ona, Oni = verb - infinitive(ti)
+- Mi = verb - infinitive(ti) + "mo"
+- Vi = verb - infinitive(ti) + "te"
+- Oni, One, Ona = verb - infinitive(ti)
+    - if last letter is "a" = "aju" 
+    - elif last letter is "i" = "e" 
+    - elif last letter is "e" = "u"
 
 📌 Note
 This program only includes regular verbs for now. Irregular ones (like "kupovati") are excluded to keep conjugation logic simple.
